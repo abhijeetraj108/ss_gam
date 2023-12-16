@@ -1,0 +1,45 @@
+body{
+    font-size: 2.3rem;
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+}
+#para{
+   display: flex;
+   justify-content: center;
+}
+
+#cont{
+    display: flex;
+    border: 2px black;
+    justify-content: center;
+}
+.cont_child{
+   /* border: 10px solid black; */
+   display: flex;
+   /* border: 2px black; */
+   justify-content: center;
+   color: white;
+   height: 190px;
+   width: 190px;
+   border-radius: 30px;
+   margin: 17px;
+}
+.purple{
+    background: purple;
+}
+.yellow{
+    background: yellow;
+}
+.grey{
+    background: rgb(34, 74, 109);
+}
+.red{
+    background:red;
+}
+.flash{
+    background: white;
+    /* background-color: rgb(93, 93, 203); */
+}
